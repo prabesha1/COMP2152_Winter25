@@ -1,3 +1,5 @@
+import random
+
 elements = ["Hydrogen", "Helium", "Lithium", "Beryllium", "Boron", "carbon"]
 print("Elements: ", elements)
 #  git add . && git commit -m "add elements array" && git push
@@ -12,11 +14,11 @@ print("Elements: ", elements)
 def get_valid_int_input(prompt):
     while True:
         try:
-            return int(input(print))
+            return int(input(prompt))
         except ValueError:
-            print("Error: Please enter a valid integer!")
+            print("Error: Please enter a valid integere!")
             continue
-            try:
-                elements_selected = get_valid_int_input("Enter the index of the element you like")
-            except Exception as e:
-                print("")
+try:
+    elements_selected = get_valid_int_input("Enter the index of the element you like")
+except Exception as e:
+    print("")
