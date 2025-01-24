@@ -1,3 +1,5 @@
+# lab 03
+
 import random
 
 # Setting up
